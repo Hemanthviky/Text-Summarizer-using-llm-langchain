@@ -41,8 +41,7 @@ def llm_pipeline(filepath):
     result=result[0]['summary_text']
 
     return result
-
-
+    
 #Display pdf
 
 @st.cache_data
